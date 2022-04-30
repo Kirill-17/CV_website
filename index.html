@@ -1,0 +1,521 @@
+<!Doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Кирилл Кандиорин - резюме">
+    <meta name="keywords" content="cv, резюме, портфолие, Кирилл Кандиорин">
+    <meta name="author" content="Kirilll Kandiorin">
+    <title>Кирилл Кандиорин - персональная информация</title>
+    <link rel="alternate" hreflang="en" href="index_en.html" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|PT+Sans+Narrow:400,700">
+    <script src="https://kit.fontawesome.com/6b587ba060.js" crossorigin="anonymous"></script>
+    <script>
+        function toEnglish() {
+            location.href = `index_en.html?posY=${window.scrollY}`;
+        }
+        window.onload = function() {
+            let queryDict = {};
+            location.search.substr(1).split("&").forEach(function(item) {
+                queryDict[item.split("=")[0]] = item.split("=")[1]
+            });
+            let Y = queryDict['posY'];
+            window.scrollTo(0, Number(Y));
+        }
+    </script>
+</head>
+
+<body>
+    <div class="language">
+        <div class="lang_field" onclick="toEnglish()">
+            <div class="ru_lang">Русский</div>
+            <label class="checkbox-lang">
+            <input type="checkbox">
+            <span class="checkbox-switch"></span>
+        </label>
+            <div class="en_lang">English</div>
+        </div>
+    </div>
+    <div class="container" id="top">
+        <div class="left_space">
+
+        </div>
+        <main>
+            <article class="card">
+                <div class="l_column">
+                    <div class="photo">
+                        <img src="img/me.jpeg" alt="My photo">
+                    </div>
+                    <a href="cv/cv_rus.pdf" target="cv">
+                        <div class="cv_button">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <p>Скачать резюме</p>
+                        </div>
+                    </a>
+                    <div class="available">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span class="text-available">доступен как фрилансер</span>
+                    </div>
+                </div>
+                <div class="r_column">
+                    <div class="info_profile">
+                        <h2>ПРИВЕТ! Я <span>Кирилл Кандиорин</span></h2>
+                        <h3>Full-stack developer</h3>
+                        <p>Меня зовут Кирилл Кандиорин. Я Full-stack разработчик, имею опыт разработки динамических веб-проектов на всех стадиях. Обладаю знаниями HTML5, CSS3,
+                            JavaScript, React, Node.js. Также обладаю профессиональным опытом в управлении командой, развитии и обучении персонала и лидерстве.</p>
+                    </div>
+                    <div class="footer_profile">
+                        <div class="col_contacts">
+                            <ul class="ul-info">
+                                <li class="li-info">
+                                    <span class="title-info">Возраст</span>
+                                    <span class="info">27</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Адрес</span>
+                                    <span class="info">Москва, Россия</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Email</span>
+                                    <span class="info">spartan3c1994@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col_contacts second_contacts">
+                            <ul class="ul-info">
+                                <li class="li-info">
+                                    <span class="title-info">Моб. </span>
+                                    <span class="info">+7 916 514 64 69</span>
+                                </li>
+                                <li class="li-info">
+                                    <span class="title-info">Website</span>
+                                    <span class="info">https://github.com/Kirill-17</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <span class="title-links">Я в соц.сетях :</span>
+                            <ul class="ul-social-links">
+                                <li class="li-social-links">
+                                    <a href="https://www.facebook.com/Kirilll.Kandiorin1423/" data-tootik="Facebook" data-tootik-conf="square"><i class="fa fa-facebook"
+                      aria-hidden="true"></i></a>
+                                </li>
+                                <li class="li-social-links">
+                                    <a href="https://www.linkedin.com/in/KirilllKandiorin/" data-tootik="Linkedin" data-tootik-conf="square"><i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a>
+                                </li>
+                                <li class="li-social-links">
+                                    <a href="https://github.com/Kirill-17" data-tootik="Github" data-tootik-conf="square"><i class="fa fa-github"
+                      aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="skills">
+                <h2><span>НАВЫКИ</span></h2>
+                <div class="cards">
+                    <div class="card l_column">
+                        <div class="skills-header">
+                            <h3>ПРОФЕССИОНАЛЬНЫЕ</h3>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">HTML &amp; CSS</span>
+                            <span class="skill-value">90%</span>
+                        </div>
+                        <div class="progress-bar blue stripes">
+                            <span style="width: 90%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-value">85%</span>
+                        </div>
+                        <div class="progress-bar blue stripes">
+                            <span style="width: 85%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-value">80%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 80%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">React</span>
+                            <span class="skill-value">80%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 80%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-value">70%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 70%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Angular JS</span>
+                            <span class="skill-value">60%</span>
+                        </div>
+                        <div class="progress-bar green stripes">
+                            <span style="width: 60%"></span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Vue.js</span>
+                            <span class="skill-value">50%</span>
+                        </div>
+                        <div class="progress-bar orange stripes">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </div>
+                    <div class="card r_column">
+                        <div class="skills-header">
+                            <h3>ДОПОЛНИТЕЛЬНЫЕ</h3>
+                        </div>
+                        <div class="sun_bars">
+                            <div class="skill_card">
+                                <div class="sun pers_100">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>100%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Обучение и развитие
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_95">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>95%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Руководство командой
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_90">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>90%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Английский язык
+                                </div>
+                            </div>
+                            <div class="skill_card">
+                                <div class="sun pers_70">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <p>70%</p>
+                                </div>
+                                <div class="add_skill_name">
+                                    Дизайн
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills_checklist">
+                            <div class="checklist_card">
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Git и GitHub</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Web архитектура</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>HTTP и REST</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Внимание к деталям</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Терпеливость</span>
+                                </div>
+                            </div>
+                            <div class="checklist_card">
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Аналитический склад ума</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Эффективная работа в команде</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Стремление к обучению</span>
+                                </div>
+                                <div class="checklist_line">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span>Креативность</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="education">
+                <h2><span>ОБРАЗОВАНИЕ</span></h2>
+                <div class="card education_card">
+                    <div class="school_cards">
+                        <div class="years">
+                            <h3>2011 - 2014</h3>
+                        </div>
+                        <div class="school">
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-university"></i>
+                                </div>
+                                Российский государственный технологический университет им. К.Э. Циолковского (МАТИ)
+                            </div>
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                Финансовый менеджмент
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card education_card">
+                    <div class="school_cards">
+                        <div class="years">
+                            <h3>2017 - 2019</h3>
+                        </div>
+                        <div class="school">
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-university"></i>
+                                </div>
+                                Российская академия народного хозяйства и государственной службы при президенте РФ (РАНХиГС)
+                            </div>
+                            <div class="school_line">
+                                <div class="school_icon">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                Корпоративное управление и стратегическое развитие бизнеса
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="experience">
+                <h2><span>ОПЫТ РАБОТЫ</span></h2>
+                <div class="experience_container">
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+                                <div class="work_logo">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2021 - наст.время</div>
+                                    <div class="work_line">Elbrus bootcamp</div>
+                                    <div class="work_line">Обучение профессии Full-stack developer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Интенсивное изучение HTML, CSS, JavaScript, React, Node</li>
+                                    <li>Алгоритмы и базы данных</li>
+                                    <li>Разработка реальных проектов в команде</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+
+                                <div class="work_logo">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2019 - 2021</div>
+                                    <div class="work_line">Freelance</div>
+                                    <div class="work_line">Fullstack developer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Создание и доработка сайтов разного уровня сложности</li>
+                                    <li>Проектирование баз данных под различные микросервисы</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_card">
+                        <div class="face face1 card">
+                            <div class="content">
+
+                                <div class="work_logo">
+                                    <i class="fa fa-piggy-bank"></i>
+                                </div>
+                                <div class="work_description">
+                                    <div class="work_line">2019 - 2021</div>
+                                    <div class="work_line">Торговля</div>
+                                    <div class="work_line">Sales</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <ul>
+                                    <li>Привлечение клиентов</li>
+                                    <li>Осуществление полного цикла продажи (сделки)</li>
+                                    <li>Последующее сопровождение сделки</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience_card">
+                    <div class="face face1 card">
+                        <div class="content">
+
+                            <div class="work_logo">
+                                <i class="fa fa-piggy-bank"></i>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_line">2016 - 2019</div>
+                                <div class="work_line">МИД России</div>
+                                <div class="work_line">Дипломат</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul>
+                                <li>Ведение секретного документооборота</li>
+                                <li>Организация и участие в переговорных процессах</li>
+                                <li>Более 100 командировок в разные уголки мира</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="experience2">
+                <div class="see_more">
+                    <a href="cv/cv_eng.pdf" target="cv">
+                        <div class="cv_button">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <p>Дополнительная информация - скачайте резюме...</p>
+                        </div>
+                    </a>
+                </div>
+            </article>
+
+
+            <article class="hobbies">
+                <h2><span>ХОББИ</span></h2>
+                <div class="hobbies_container">
+                    <div class="hobby_card">
+                        <i class="fa fa-motorcycle"></i>
+                        <h4>Мотоцикл</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-dumbbell"></i>
+                        <h4>Фитнес</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-book-reader"></i>
+                        <h4>Книги</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-music"></i>
+                        <h4>Музыка</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-utensils"></i>
+                        <h4>Кухня</h4>
+                    </div>
+                    <div class="hobby_card">
+                        <i class="fa fa-globe-americas"></i>
+                        <h4>Путешествия</h4>
+                    </div>
+                </div>
+
+            </article>
+
+            <footer class="card">
+                <a href="#top">
+                    <div class="to_top">
+                        <i class="fa fa-arrow-circle-up"></i>
+                    </div>
+                </a>
+                <div class="copyright">
+                    2021 &copy; Кирилл Кандиорин
+                </div>
+                <a href="#top">
+                    <div class="to_top">
+                        <i class="fa fa-arrow-circle-up"></i>
+                    </div>
+                </a>
+            </footer>
+        </main>
+        <div class="right_space">
+
+        </div>
+    </div>
+</body>
+
+</html>
